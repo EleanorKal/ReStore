@@ -23,8 +23,7 @@ namespace API
                  DbInitializer.Initialize(context);
             }
             catch (Exception ex)
-            {
-                
+            {                
                 logger.LogError(ex, "Problem migrating data");
             }
 
